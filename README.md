@@ -353,7 +353,7 @@
         // Activar el enlace correspondiente al hacer scroll
         window.addEventListener('scroll', function() {
             const sections = document.querySelectorAll('.section');
-            const navLinks = document.querySelectorAll('.sidebar-menu a');
+            const navLinks = document.querySelectorAll('.sidebar-menu a'); 
             
             let curre   nt = '';
             
